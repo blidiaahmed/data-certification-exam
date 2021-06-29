@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "positive\n\n\n",
+    "T_STAT": "1.820\n",
+    "P_VALUE": "when the p-value is less than 0.05 we say that the null hypothesis\nwas succesfully rejected and that the alternative hypothesis can be taken \nin practice this tells us how confident are we of our coefficients, in our case 0.128>0.05 means we are not confident with a 95%\n\nneather for a 90%, we can take it however for 87% confidence level.\n",
+    "INCREASE": " if we encrease the share of families with a married couple by 1% than we are more than 95% sure that the number of encidents will\ndecrease by 2115.1839 \n\n",
+    "LIMITATIONS": " even if we have good r-score and p-values, the model is trained on\nsmall size sample (12 rows) this means we evaluate the performance \nusing the t-score that is higher that 3 in both PERC_MARRIED_COUPLE_FAMILY\nand PERC_OTHER_STATE_OR_ABROAD that are the only features for which \nwe have a good p-value, according to the table given in the course what we have measured is 99.5% improbable"
+}
